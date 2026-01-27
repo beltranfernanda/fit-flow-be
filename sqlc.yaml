@@ -1,0 +1,9 @@
+version: "2"
+packages:
+  - name: "db"
+    path: "internal/adapters/db/sqlc"
+    engine: "postgresql"
+    schema: "supabase/migrations/*.sql"
+    queries: "sql_queries/"
+    emit_json_tags: true
+    emit_interface: false

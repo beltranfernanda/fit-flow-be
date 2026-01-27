@@ -27,6 +27,15 @@ go.work.sum
 # env file
 .env
 
+# Supabase
+.branches
+.temp
+
+# dotenvx
+.env.keys
+.env.local
+.env.*.local
+
 # Editor/IDE
 # .idea/
 # .vscode/
