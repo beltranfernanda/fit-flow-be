@@ -14,6 +14,6 @@ func NewAuthHandler() *AuthHandler {
 
 func (h *AuthHandler) GetAuthInfo(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{
-		"message": "this is auth service",
+		"message": "this is auth service, signed in user info would be here",
 	})
 }
